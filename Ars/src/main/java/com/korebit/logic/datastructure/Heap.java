@@ -20,15 +20,15 @@ public class Heap {
     }
 
     public void insert(int info) {
-        Node nuevo = new Node();
-        nuevo.info = info;
-        nuevo.next = null;
+        Node newNode = new Node();
+        newNode.info = info;
+        newNode.next = null;
         if (isEmptyForHeap()) {
-            start = nuevo;
+            start = newNode;
         } else {
-            end.next = nuevo;
+            end.next = newNode;
         }
-        end = nuevo;
+        end = newNode;
     }
 
     public int extract() {
@@ -47,11 +47,11 @@ public class Heap {
     }
 
     public void show() {
-        Node recorrido = start;
+        Node route = start;
         StringBuilder row = new StringBuilder();
-        while (recorrido != null) {
-            heap.append(recorrido.info).append(" ");
-            recorrido = recorrido.next;
+        while (route != null) {
+            heap.append(route.info).append(" ");
+            route = route.next;
         }
         //Método Split permite separar cadenas
         String[] str = heap.toString().split(" ");
