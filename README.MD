@@ -28,3 +28,6 @@ their APIs and frameworks such as Spring, Quarkus, Ktor, KMP or simply the vanil
 
 ### Structure
 The project is organized into different modules, each dedicated to a specific language or framework. Each module contains examples and exercises to help you learn and practice.
+
+### Notes
+The new Android module with Kotlin has been added, but it won't work in conjunction with the others. To use it, you only need to open the Android Project folder, not the root folder (Ars-Collection).
