@@ -44,7 +44,7 @@ test {
 }
 
 application {
-    mainClass = 'com.korebit.controller.TableViewApp'//'com.atlix.app.App'
+    mainClass = 'com.korebit.controller.TableViewApp'
 }
 
 run {
@@ -61,7 +61,7 @@ run {
     doFirst {
         jvmArgs = [
                 '--module-path', configurations.runtimeClasspath.asPath,
-                '--add-modules', javafxModules.collect { "javafx.${it}" }.join(',')
+                '--add-modules', javafxModules.collect(({ "javafx.${it}" } as Closure<Object>)).join(',')
         ]
     }
 }
