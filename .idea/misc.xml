@@ -2,7 +2,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/Ars" />
-    <file type="web" url="file://$PROJECT_DIR$/Ars-fx" />
+    <file type="web" url="file://$PROJECT_DIR$/Ars-Fx" />
     <file type="web" url="file://$PROJECT_DIR$/Ars-Spring" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_25" project-jdk-name="temurin-21" project-jdk-type="JavaSDK">
