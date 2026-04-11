@@ -22,7 +22,7 @@ their APIs and frameworks such as Spring, Quarkus, Ktor, KMP or simply the vanil
 - Micronaut → Coming Soon
 - JavaFX
 - Android → Coming Soon
-- JUnit 5 → Coming Soon
+- JUnit 5 → In Progress
 - Jetpack Compose → Coming Soon
 - and more...
 

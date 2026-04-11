@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Ars-Collection.iml" filepath="$PROJECT_DIR$/Ars-Collection.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Ars-Spring.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Ars-Spring.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Ars.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Ars.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Ars.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Ars.test.iml" />
     </modules>
   </component>
 </project>

@@ -1,4 +1,4 @@
 package com.korebit.entity;
 
-public class Car {
+public class Car  {
 }
