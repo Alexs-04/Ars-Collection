@@ -41,7 +41,7 @@ public class ProducerConsumerWithLockCondition {
                 }
 
                 hasData = false;
-                System.out.println("✅ Consumidor consumió: " + data);
+                System.out.println("Consumidor consumió: " + data);
 
                 dataConsumed.signal(); // Notifica al productor
             } catch (InterruptedException e) {
