@@ -9,7 +9,7 @@ import java.util.function.Predicate;
 
 public class AnonymousFunctions {
 
-    public void Example() {
+    public void example() {
         //Function<String, Integer> f = String::length;
         Predicate<Integer> isTwoSequence = x -> x % 2 == 0;
         Function<Integer, Integer> f = x -> x * 2;
@@ -22,11 +22,9 @@ public class AnonymousFunctions {
         System.out.println(n);
 
         // List<Integer[]> list = new ArrayList<>();
-
-
     }
 
-    public Optional<ArrayList<Integer>> ExampleForOptional() {
+    public Optional<ArrayList<Integer>> exampleForOptional() {
         List<Integer> list = new ArrayList<>();
 
         for (int i = 0; i < 500; i++) {
@@ -51,7 +49,7 @@ public class AnonymousFunctions {
     }
 
     public void useExampleForOptional() {
-        Optional<ArrayList<Integer>> optional = ExampleForOptional();
+        Optional<ArrayList<Integer>> optional = exampleForOptional();
 
         if (optional.isEmpty()) {
             System.out.println("La lista esta vacía");
@@ -68,6 +66,6 @@ public class AnonymousFunctions {
             System.out.println("La lista contiene: " + list);
         });
 
-        var list1 = optional.orElse(new ArrayList<Integer>());
+        var list1 = optional.orElse(new ArrayList<>());
     }
 }
