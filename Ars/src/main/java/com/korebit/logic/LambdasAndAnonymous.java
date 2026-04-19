@@ -18,8 +18,6 @@ public class LambdasAndAnonymous {
         Runnable lambdaRunnable = () -> System.out.println("Hello from a lambda expression!");
         lambdaRunnable.run();
 
-
-
         /**********************************************/
         Predicate<Integer> predicate = x -> x > 5;
         Predicate<String> stringPredicate = str -> {
