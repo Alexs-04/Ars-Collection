@@ -21,9 +21,9 @@ their APIs and frameworks such as Spring, Quarkus, Ktor, KMP or simply the vanil
 - KMP → Coming Soon
 - Micronaut → Coming Soon
 - JavaFX
-- Android → Coming Soon
+- Android → In Progress
 - JUnit 5 → In Progress
-- Jetpack Compose → Coming Soon
+- Jetpack Compose → In Progress
 - and more...
 
 ### Structure
