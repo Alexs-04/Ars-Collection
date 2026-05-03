@@ -1,8 +1,10 @@
 package com.korebit.logic;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.condition.EnabledOnOs;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assumptions.assumeTrue;
 
 
 public class OtherTest {
@@ -20,5 +22,12 @@ public class OtherTest {
         assertTimeout(java.time.Duration.ofSeconds(1), () -> {
             Thread.sleep(500);
         });
+    }
+
+    @Test
+    @EnabledOnOs(org.junit.jupiter.api.condition.OS.WINDOWS)
+    public void test(){
+        assumeTrue(System.getProperty("os.name").startsWith("Windows"));
+        System.out.println("Test");
     }
 }
